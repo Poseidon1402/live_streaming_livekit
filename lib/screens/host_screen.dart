@@ -13,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
   LocalVideoTrack? localVideoTrack;
   static const url = "wss://livestream-q5sk4tqa.livekit.cloud";
   static const token =
-      "eyJhbGciOiJIUzI1NiJ9.eyJ2aWRlbyI6eyJyb29tSm9pbiI6dHJ1ZSwicm9vbSI6InF1aWNrc3RhcnQtcm9vbSJ9LCJpc3MiOiJBUElqRERTNUJ0azNLaksiLCJleHAiOjE3NjUzODY2MTcsIm5iZiI6MCwic3ViIjoicXVpY2tzdGFydC11c2VybmFtZSJ9.3dDRkZpWjKhlsiEfSnlOPEABHh8UWSNe5uA-dxUIqeM";
+      "eyJhbGciOiJIUzI1NiJ9.eyJ2aWRlbyI6eyJyb29tSm9pbiI6dHJ1ZSwicm9vbSI6InF1aWNrc3RhcnQtcm9vbSJ9LCJpc3MiOiJBUElqRERTNUJ0azNLaksiLCJleHAiOjE3NjU2NDMyNTcsIm5iZiI6MCwic3ViIjoicXVpY2tzdGFydC11c2VybmFtZSJ9.82uA9JvoBMygNg9gH0v5k91JCg2f9hrT5yhDefoiOGA";
 
   final room = Room();
 
