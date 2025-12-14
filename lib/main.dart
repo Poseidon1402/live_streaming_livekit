@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'bloc/auth/auth_bloc.dart';
-import 'screens/home_screen.dart';
+import 'screens/host_screen.dart';
+import 'screens/join_screen.dart';
 import 'screens/login_screen.dart';
 import 'utils/constants/routes.dart';
 
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         routes: {
           Routes.login: (context) => const LoginScreen(),
-          Routes.home: (context) => const HomeScreen(),
+          Routes.host: (context) => const HostScreen(),
+          Routes.join: (context) => const JoinScreen(),
         },
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
