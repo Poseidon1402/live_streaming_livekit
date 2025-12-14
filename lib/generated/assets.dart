@@ -5,10 +5,12 @@ class Assets {
   static const String authAuthBloc = 'lib/bloc/auth/auth_bloc.dart';
   static const String authAuthEvent = 'lib/bloc/auth/auth_event.dart';
   static const String authAuthState = 'lib/bloc/auth/auth_state.dart';
+  static const String configWebsocket = 'lib/config/websocket_config.dart';
   static const String constantsRoutes = 'lib/utils/constants/routes.dart';
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String libMain = 'lib/main.dart';
-  static const String screensHomeScreen = 'lib/screens/home_screen.dart';
+  static const String screensHostScreen = 'lib/screens/host_screen.dart';
+  static const String screensJoinScreen = 'lib/screens/join_screen.dart';
   static const String screensLoginScreen = 'lib/screens/login_screen.dart';
   static const String validatorFormValidator = 'lib/utils/validator/form_validator.dart';
 
